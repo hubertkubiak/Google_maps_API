@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Drawing Application</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <div id="map"></div>
+    <div id="places">
+        <div class="places__place" id="palac"><span>Pałac kultury</span></div>
+        <div class="places__place" id="arkadia"><span>CH Arkadia</span></div>
+        <div class="places__place" id="lazienki"><span>Lazienki Królewskie</span></div>
+    </div>
+    <div class="zooms">
+        <div class="zoom" id="zoomin">+</div>
+        <div class="zoom" id="zoomout">-</div>
+    </div>
+    <div class="navigation">
+        <div class="nav-rose">
+            <div class="dir" id="up"><span>&#8593;</span></div>
+            <div class="dir" id="left"><span>&#8592;</span></div>
+            <div class="dir" id="right"><span>&#8594;</span></div>
+            <div class="dir" id="down"><span>&#8595;</span></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+#map {
+    width: 100%;
+    height: 97vh;
+}
+
+#places {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.nav-rose {
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: column;
+}
+
+.places__place,
+.dir,
+.zoom {
+    vertical-align: top;
+    padding: 10px;
+    margin: 5px;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background: #e67e22;
+    border: 0;
+    font-style: Arial;
+    border-bottom: 2px solid #da751c;
+    cursor: pointer;
+    &:hover {
+        background: #d35400;
+    }
+}
+
+.dir {
+    width: 25px;
+    height: 25px;
+}
+
+.places__place {
+    font-size: 16px;
+}
+
+.zooms {
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+    left: calc(50% - 120px);
+    bottom: 30px;
+    .zoom {
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+    }
+}
+
+.navigation {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
