@@ -26,6 +26,8 @@
   border: 0;
   font-style: Arial;
   border-bottom: 2px solid #da751c;
+  border-radius:14px;
+  opacity:0.9;
   cursor: pointer; }
   .places__place:hover,
   .dir:hover,
